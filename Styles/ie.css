@@ -1,0 +1,12 @@
+﻿button.btn, a.btn, div.jumbotron, .navbar, .panel, .list-group, .list-group-item, div.well, .list-group-item-info,.image-block,.image-block h1,.image-block p,#myCarousel {
+    behavior: url("http://web-0022a.iaf/tapi//Scripts/PIE.htc") !important;
+    /*behavior: url(../Scripts/PIE.htc) !important;*/
+}
+
+.navbar-brand:after {
+    content: '\0000a0\0000a0\0000a0';
+}
+table tr{
+    background-color:#fff;
+
+ }

@@ -1,0 +1,296 @@
+﻿body {
+    direction: rtl;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.mainbody {
+    margin-top: 48px;
+}
+
+/*------------------------------- NAVBAR THEME -------------------------------*/
+.navbar {
+    background-color: #fefefe;
+    border-bottom: 2px solid #c1c1c1;
+    /*background-color:transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)";*/
+}
+
+    .navbar a {
+        color: #9d9d9d !important;
+        border-color: #9d9d9d !important;
+        background-color: #fefefe !important;
+    }
+
+ul.navbar-nav {
+}
+
+    ul.navbar-nav > li > a {
+        -moz-transition: all .1s;
+        -o-transition: all .1s;
+        -webkit-transition: all .1s;
+        transition: all .1s;
+        font-size: 1.2em;
+        font-weight: bold;
+        border-top: transparent solid 2px !important;
+        color: #9d9d9d !important;
+    }
+
+    ul.navbar-nav > li.active > a {
+        background-color: #fefefe !important;
+    }
+
+    ul.navbar-nav > li > a:focus {
+        background-color: #fefefe !important;
+    }
+
+    ul.navbar-nav > li > a:hover {
+        background-color: #fefefe !important;
+    }
+
+ul.dropdown-menu a:hover {
+    background-color: #efefef !important;
+}
+
+.navbar button span {
+    background-color: #555;
+}
+/*------------------------------- /NAVBAR THEME -------------------------------*/
+
+
+/*------------------------------- YELLOW THEME -------------------------------*/
+div.navbar-yellow ul.navbar-nav > li.active > a {
+    color: #d8b90b !important;
+    border-top: #d8b90b solid 2px !important;
+}
+
+div.navbar-yellow ul.navbar-nav > li > a:hover {
+    border-top: #f8e992 solid 2px !important;
+    color: #ebd970 !important;
+}
+
+div.navbar-yellow ul.navbar-nav > li > a:focus {
+    border-top: #f8e992 solid 2px !important;
+    color: #ebd970 !important;
+}
+
+div.navbar-yellow .navbar-brand {
+    color: #d8b90b !important;
+}
+
+/*------------------------------- BLUE THEME -------------------------------*/
+div.navbar-blue ul.navbar-nav > li.active > a {
+    color: #1290bf !important;
+    border-top: #1290bf solid 2px !important;
+}
+
+div.navbar-blue ul.navbar-nav > li > a:hover {
+    border-top: #9bd6eb solid 2px !important;
+    color: #9bd6eb !important;
+}
+
+div.navbar-blue ul.navbar-nav > li > a:focus {
+    border-top: #9bd6eb solid 2px !important;
+    color: #9bd6eb !important;
+}
+
+div.navbar-blue .navbar-brand {
+    color: #1290bf !important;
+}
+/*------------------------------- END THEMES -------------------------------*/
+
+/*.image-block {
+    height: 486px;
+    background-color: #147da5;
+    background-image:url('../Resources/Tapi Cover.JPG');
+    background-color: #145099;
+    overflow:hidden;
+    max-width:100%;
+    position:relative;
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #738aa7 100%);
+  background-image:      -o-linear-gradient(top, #efefef 0%, #738aa7 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#738aa7));
+  background-image:         linear-gradient(to bottom, #efefef 0%, #738aa7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffefefef', endColorstr='#ff738aa7', GradientType=0);
+  box-shadow:0 0 5px #222;
+}
+
+    .image-block  .cnt {
+        padding-top:78px;
+        
+    }
+    .cnt h1{
+        text-align:center;
+        font-size:4em;
+    }
+.cnt p {
+    padding-top:46px;
+    text-align:center;
+    font-size:2em;
+}
+.cnt p>i{
+    padding:12px;
+}*/
+.btn {
+    border-bottom: 2px solid #9d9d9d;
+}
+
+.marginify > div {
+    margin: 6px 0;
+}
+
+.jumbotron {
+    box-shadow: 0 0 5px #666;
+}
+
+.first {
+    border-radius: 4px 4px 0 0;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: default !important;
+    border-bottom: 4px solid #ddd;
+}
+
+.last {
+    border-radius: 0 0 4px 4px;
+    margin-left: 0;
+}
+
+.list-group {
+    border-radius: 4px;
+    box-shadow: 0 0 2px #bbb;
+}
+
+@media (max-width: 767px) {
+    .cnt p {
+        padding-top: 46px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+}
+
+
+.image-block {
+    height: 385px;
+    /*background-color: #147da5;*/
+    /*background-image:url('../Resources/Tapi Cover.JPG');*/
+    /*background-color: #145099;*/
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    background-color: #183658;
+    box-shadow: 0 0 5px #333;
+}
+
+    .image-block > img {
+        height: 586px;
+        top: 0;
+        position: absolute;
+        margin-left: -960px;
+        left: 50%;
+    }
+
+.fixitup {
+    z-index: 999;
+    position: relative;
+    height: 385px;
+    padding-top: 70px;
+}
+
+    .fixitup img {
+        margin: 0 auto;
+        padding: 6px 0;
+    }
+
+.bim {
+    display: block;
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 8px;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+    .bim img {
+        display: block;
+        height: 96px;
+        margin: 0 auto;
+    }
+
+    .bim .help-block {
+        margin: 0;
+        padding-top: 4px;
+        font-weight: bold;
+    }
+
+    .bim:hover {
+        border-bottom: 2px solid #009aff !important;
+        text-decoration: none !important;
+    }
+
+.btn-inverse {
+    color: #fff;
+    background-color: #333;
+}
+
+    .btn-inverse:hover {
+        background-color: #444;
+        color: #efefef;
+    }
+
+    .btn-inverse:active, .btn-inverse:focus {
+        border-bottom-color: #666;
+        background-color: #333;
+        color: #fff;
+    }
+
+.showtime {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.btn-xl {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-primary {
+    border-bottom-color: #076ab5;
+}
+
+#myCarousel {
+    height: 220px;
+    box-shadow: 0 0 5px #666;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+    #myCarousel .item {
+        height: 187px;
+        background-size:cover;
+        background-position:center;
+    }
+
+    .footer{
+    display:block;
+    text-align:center;
+    padding:24px;
+}
+.footer a {
+    color:#3b455b;
+    font-size:1.3em;
+}
+.footer a:focus {
+    text-decoration:none;
+}
+.footer i{
+    font-size:1em !important;
+}
+
+    /*---------------Animation Properties--------------*/
